@@ -9,12 +9,12 @@
 
 int main(void)
 {
-int lowerCase = 'a';
-while (lowerCase <= 'z')
+	int lowerCase = 'a';
+	while (lowerCase <= 'z')
 {
-putchar(lowerCase);
-lowercase += 1;
+	putchar(lowerCase);
+	lowercase += 1;
 }
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
