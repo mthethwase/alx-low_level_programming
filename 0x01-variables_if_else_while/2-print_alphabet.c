@@ -1,20 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
-
 /**
  * main - Entry point
- *
- * Return: Always ) (success)
+ * Description: 'Print alphabet lowercase'
+ * Return: Always 0
  */
-
 int main(void)
 {
-	int lowerCase = 'a';
-	while (lowerCase <= 'z')
-{
-	putchar(lowerCase);
-	lowercase += 1;
-}
+	int n = 97;
+
+	while (n <= 122)
+	{
+		putchar(n);
+		n++;
+	}
 	putchar('\n');
 	return (0);
 }
