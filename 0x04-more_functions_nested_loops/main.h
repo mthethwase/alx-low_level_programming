@@ -3,4 +3,6 @@
 
 int _isupper(int c);
 int _isgidit(int c);
+int mul(int a, int b);
+
 #endif
