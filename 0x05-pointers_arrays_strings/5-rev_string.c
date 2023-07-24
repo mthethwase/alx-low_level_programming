@@ -4,7 +4,7 @@
 /**
  * rev_string - reverses a string
  * @s: input
- * Return: strin in reverse
+ * Return: string in reverse
  */
 void rev_string(char *s)
 {
@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int i;
 
 
-	while (s[c] 1 = '\0')
+	while (s[c] !=  '\0')
 		c++;
 	for (i = 0; i < c; i++)
 	{
