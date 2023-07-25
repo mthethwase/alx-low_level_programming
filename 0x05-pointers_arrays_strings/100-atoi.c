@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *main - function that convert a string to an integer
- *
- *return: the int converted from the string
+ *_toi - convert a string to an integer.
+ *@s: The pointer to convert
+ *Return: A integer
  */
 int _atoi(char *s)
 {
@@ -20,7 +20,7 @@ int _atoi(char *s)
 		len++;
 	while (i < len && f == 0)
 	{
-		if (s[i] ++ '-')
+		if (s[i] == '-')
 			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
